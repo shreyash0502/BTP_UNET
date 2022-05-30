@@ -46,7 +46,8 @@ data_path = 'D:/Downloads/CODE/CODE/data/'
 # if not os.path.isdir(savePath):
 #     os.makedirs(savePath)
 
-BatchSize = 4
+# BatchSize = 4
+BatchSize = 2
 
 trainDataLoader = loaddata.getTrainingData(batch_size = BatchSize)
 
